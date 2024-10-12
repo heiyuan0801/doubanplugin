@@ -16,7 +16,7 @@
                             var doubanId = e.data.doubanId;
                             console.log('Douban ID:', doubanId); // Debugging: Log the豆瓣id
 
-                            fetch("https://t.iyuns.com/db.php?id=" + doubanId, {
+                            fetch("https://你的自建豆瓣地址/db.php?id=" + doubanId, {
                                 "body": null,
                                 "method": "GET"
                             }).then(response => {
