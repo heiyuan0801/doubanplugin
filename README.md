@@ -1,6 +1,8 @@
 # doubanplugin
 wordpress豆瓣插![PixPin_2024-10-12_15-25-36](https://github.com/user-attachments/assets/677c0f5b-9264-4c9b-9603-a864b9bf1444)
 入信息插件   
+
+这个代码复制不行去 这里复制：https://blog.freeimg.cn/archives/wordpressdou-ban-cha-ru-xin-xi-cha-jian
 在你的主题的functions.php中添加以下代码：
 `add_action('wp_ajax_upload_image_to_media', 'upload_image_to_media');
 add_action('wp_ajax_nopriv_upload_image_to_media', 'upload_image_to_media');
