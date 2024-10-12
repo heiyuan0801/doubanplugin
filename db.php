@@ -2,7 +2,7 @@
 #调用方式  http://你的网站域名/db.php?id=35230876
 #本文件只用于交流学习，请勿作违法违规
 
-@header("Access-Control-Allow-Origin: https://soju.ee");
+@header("Access-Control-Allow-Origin: 你的网站");
 @header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
 @header("Access-Control-Allow-Headers: Content-Type, Authorization");
 error_reporting(0);
