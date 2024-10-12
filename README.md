@@ -7,6 +7,7 @@
 第二步修改 douban-info.js 这个文件的api地址
 
 第三步：上传插件
+第四步：在你的主题的functions.php中添加以下代码：
 
 这个代码复制不行去 这里复制：https://blog.freeimg.cn/archives/wordpressdou-ban-cha-ru-xin-xi-cha-jian
 在你的主题的functions.php中添加以下代码：
