@@ -1,6 +1,12 @@
 # doubanplugin
-wordpress豆瓣插![PixPin_2024-10-12_15-25-36](https://github.com/user-attachments/assets/677c0f5b-9264-4c9b-9603-a864b9bf1444)
-入信息插件   
+![PixPin_2024-10-12_15-25-36](https://github.com/user-attachments/assets/677c0f5b-9264-4c9b-9603-a864b9bf1444)
+第一步
+
+自己搞一个api文件 db.php
+
+第二步修改 douban-info.js 这个文件的api地址
+
+第三步：上传插件
 
 这个代码复制不行去 这里复制：https://blog.freeimg.cn/archives/wordpressdou-ban-cha-ru-xin-xi-cha-jian
 在你的主题的functions.php中添加以下代码：
