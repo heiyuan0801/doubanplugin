@@ -2,7 +2,7 @@
 wordpress豆瓣插![PixPin_2024-10-12_15-25-36](https://github.com/user-attachments/assets/677c0f5b-9264-4c9b-9603-a864b9bf1444)
 入信息插件   
 在你的主题的functions.php中添加以下代码：
-add_action('wp_ajax_upload_image_to_media', 'upload_image_to_media');
+`add_action('wp_ajax_upload_image_to_media', 'upload_image_to_media');
 add_action('wp_ajax_nopriv_upload_image_to_media', 'upload_image_to_media');
 
 function upload_image_to_media() {
@@ -30,7 +30,7 @@ function upload_image_to_media() {
     } else {
         wp_send_json_success(['media_id' => $media_id, 'url' => wp_get_attachment_url($media_id)]);
     }
-}
+}`
 
 需要自己自建一个api文件 db.php 上传服务器 即可
 
